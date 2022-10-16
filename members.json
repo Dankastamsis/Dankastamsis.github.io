@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "image": "https:\/\/via.placeholder.com\/160x160\/FF0000\/000000",
+        "firstname": "Umar",
+        "lastname": "Bakri",
+        "address": "Indonesia"
+    },
+    {
+        "id": "2",
+        "firstname": "Ashton",
+        "image": "https:\/\/via.placeholder.com\/160x160\/FF0000\/000000",
+        "lastname": "Cox",
+        "address": "San Francisco"
+    },
+    {
+        "id": "3",
+        "firstname": "Bradley",
+        "image": "https:\/\/via.placeholder.com\/160x160\/FF0000\/000000",
+        "lastname": "Greer",
+        "address": "London"
+    },
+    {
+        "id": "4",
+        "firstname": "Brenden",
+        "image": "https:\/\/via.placeholder.com\/160x160\/FF0000\/000000",
+        "lastname": "Wagner",
+        "address": "San Francisco"
+    },
+    {
+        "id": "5",
+        "firstname": "Cairocoders",
+        "image": "https:\/\/via.placeholder.com\/160x160\/FF0000\/000000",
+        "lastname": "Ednalan",
+        "address": "Olongapo City"
+    },
+    {
+        "id": "6",
+        "firstname": "Clydety",
+        "image": "https:\/\/via.placeholder.com\/160x160\/FF0000\/000000",
+        "lastname": "Ednalan",
+        "address": "Olongapo City"
+    }
+]
