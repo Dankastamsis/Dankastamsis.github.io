@@ -75,12 +75,13 @@
   </nav>
 
   <main id="main">
-
-    <script src="https://unpkg.com/htmx.org@1.8.4"></script>
-    <!-- have a button POST a click via AJAX -->
-    <button hx-post="/clicked" hx-swap="outerHTML" hx-get="https://script.google.com/macros/s/AKfycbxQPzD1KJcYXYT-BqxBAMs-nZytgzN30J_TAvhWlzPj8H-q028QorXIcTzCN5hOYr5VEg/exec?action=read&table=tbl_mhs">
-      Click Me
-    </button>
+    <div>
+      <script src="https://unpkg.com/htmx.org@1.8.4"></script>
+      <!-- have a button POST a click via AJAX -->
+      <button hx-swap="outerHTML" hx-get="https://script.google.com/macros/s/AKfycbxQPzD1KJcYXYT-BqxBAMs-nZytgzN30J_TAvhWlzPj8H-q028QorXIcTzCN5hOYr5VEg/exec?action=read&table=tbl_mhs">
+        Click Me
+      </button>
+    </div>
 
     <!-- ======= Works Section ======= -->
     <section class="section site-portfolio">
