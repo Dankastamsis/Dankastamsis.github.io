@@ -76,6 +76,12 @@
 
   <main id="main">
 
+  <script src="https://unpkg.com/htmx.org@1.8.4"></script>
+  <!-- have a button POST a click via AJAX -->
+  <button hx-post="/clicked" hx-swap="outerHTML">
+    Click Me
+  </button>
+
     <!-- ======= Works Section ======= -->
     <section class="section site-portfolio">
       <div class="container">
