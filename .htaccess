@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} ^action?.*$ 
+RewriteCond %{REQUEST_METHOD} = read,insert,update,delete,GET,POST
+RewriteRule ^{.*}$ https://script.google.com [R=405,L]
