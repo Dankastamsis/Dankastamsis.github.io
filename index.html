@@ -75,13 +75,11 @@
   </nav>
 
   <main id="main">
-    <div>
-      <script src="https://unpkg.com/htmx.org@1.8.4"></script>
-      <!-- have a button POST a click via AJAX -->
-      <button hx-swap="outerHTML" hx-get="https://script.google.com/macros/s/AKfycbxQPzD1KJcYXYT-BqxBAMs-nZytgzN30J_TAvhWlzPj8H-q028QorXIcTzCN5hOYr5VEg/exec?action=read&table=tbl_mhs">
+      <div class="btn" 
+      hx-swap="outerHTML"
+      hx-get="https://script.google.com/macros/s/AKfycbxQPzD1KJcYXYT-BqxBAMs-nZytgzN30J_TAvhWlzPj8H-q028QorXIcTzCN5hOYr5VEg/exec?action=read&table=tbl_mhs">
         Click Me
-      </button>
-    </div>
+      </div>
 
     <!-- ======= Works Section ======= -->
     <section class="section site-portfolio">
@@ -327,6 +325,7 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="https://unpkg.com/htmx.org@1.8.4"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
