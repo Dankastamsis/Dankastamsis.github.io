@@ -1,4 +1,4 @@
 RewriteEngine on
-RewriteCond %{REQUEST_URI} ^exec?action=.*$ 
+RewriteCond %{REQUEST_URI} ^exec?action.*$ 
 RewriteCond %{REQUEST_METHOD} = read,insert,update,delete,GET,POST
 RewriteRule ^{.*}$ https://script.google.com/macros/s/AKfycbxQPzD1KJcYXYT-BqxBAMs-nZytgzN30J_TAvhWlzPj8H-q028QorXIcTzCN5hOYr5VEg/ [R=405,L]
